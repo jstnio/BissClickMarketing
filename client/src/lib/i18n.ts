@@ -266,13 +266,412 @@ const esTranslations = {
   }
 };
 
+// French translations
+const frTranslations = {
+  nav: {
+    home: "Accueil",
+    services: "Services",
+    portfolio: "Portfolio",
+    about: "À Propos",
+    contact: "Contact",
+    getStarted: "Commencer"
+  },
+  hero: {
+    title: "Transformez votre entreprise",
+    subtitle: "avec le marketing digital",
+    description: "Stimulez la croissance et atteignez vos objectifs commerciaux grâce à nos solutions de marketing digital complètes. De la stratégie à l'exécution, nous sommes là pour vous aider à réussir.",
+    cta: {
+      primary: "Commencer",
+      secondary: "Voir le Portfolio"
+    },
+    imageAlt: "Réunion de l'équipe marketing"
+  },
+  services: {
+    title: "Nos Services",
+    subtitle: "Solutions de marketing digital complètes adaptées à vos besoins",
+    viewAll: "Voir Tous les Services",
+    digitalMarketing: {
+      title: "Marketing Digital",
+      description: "Campagnes de marketing digital stratégiques qui génèrent des résultats"
+    },
+    socialMedia: {
+      title: "Médias Sociaux",
+      description: "Gestion engageante des médias sociaux pour construire votre présence"
+    },
+    contentCreation: {
+      title: "Création de Contenu",
+      description: "Contenu captivant qui raconte l'histoire de votre marque"
+    },
+    analytics: {
+      title: "Analytique",
+      description: "Insights basés sur les données pour optimiser votre stratégie"
+    },
+    communityManagement: {
+      title: "Gestion de Communauté",
+      description: "Construction et entretien de votre communauté en ligne"
+    },
+    seo: {
+      title: "SEO",
+      description: "Amélioration de votre visibilité dans les résultats de recherche"
+    }
+  },
+  portfolio: {
+    title: "Travaux Récents",
+    subtitle: "Projets récents qui démontrent notre expertise",
+    viewAll: "Voir le Portfolio Complet",
+    items: {
+      techStartup: {
+        title: "Refonte Startup Tech",
+        description: "Transformation digitale complète pour une entreprise tech en croissance",
+        category: "Marque & Stratégie"
+      },
+      ecommerce: {
+        title: "Croissance E-commerce",
+        description: "Augmentation des ventes en ligne de 200% grâce au marketing stratégique",
+        category: "Marketing Digital"
+      },
+      socialMedia: {
+        title: "Campagne Médias Sociaux",
+        description: "Campagne virale touchant des millions d'utilisateurs engagés",
+        category: "Médias Sociaux"
+      }
+    }
+  },
+  about: {
+    title: "À Propos de Nous",
+    description: "BissClick est une agence de marketing digital complète dédiée à aider les entreprises à prospérer à l'ère numérique. Notre équipe d'experts combine créativité et stratégies basées sur les données pour offrir des résultats exceptionnels.",
+    mission: {
+      title: "Notre Mission",
+      description: "Permettre aux entreprises d'utiliser des solutions de marketing digital innovantes qui stimulent la croissance, améliorent la visibilité de la marque et créent des connexions significatives avec leur audience."
+    },
+    vision: {
+      title: "Notre Vision",
+      description: "Être le partenaire de marketing digital de référence pour les entreprises recherchant une croissance transformative grâce à des stratégies créatives et axées sur les résultats."
+    },
+    team: {
+      title: "Notre Équipe",
+      description: "Rencontrez les experts passionnés derrière le succès de BissClick. Notre équipe diversifiée rassemble des années d'expérience en marketing digital, design et stratégie.",
+      members: {
+        1: {
+          name: "Sarah Johnson",
+          role: "PDG et Fondatrice",
+          bio: "Avec plus de 15 ans d'expérience en marketing, Sarah dirige notre équipe avec vision et expertise.",
+          image: "https://images.unsplash.com/photo-1531545514256-b1400bc00f31"
+        },
+        2: {
+          name: "Michael Chen",
+          role: "Directeur Marketing Digital",
+          bio: "Michael est spécialisé dans la création de stratégies marketing basées sur les données qui génèrent des résultats.",
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+        },
+        3: {
+          name: "Emma Wilson",
+          role: "Directrice Créative",
+          bio: "Emma donne vie aux marques grâce à une narration visuelle et un design captivant.",
+          image: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
+        },
+        4: {
+          name: "David Park",
+          role: "Responsable Médias Sociaux",
+          bio: "David est un expert dans la construction de communautés sur les réseaux sociaux.",
+          image: "https://images.unsplash.com/photo-1556691421-cf15fe27a0b6"
+        }
+      }
+    },
+    values: {
+      title: "Nos Valeurs",
+      items: {
+        1: {
+          title: "Innovation",
+          description: "Nous restons à la pointe des tendances digitales pour offrir des solutions innovantes."
+        },
+        2: {
+          title: "Excellence",
+          description: "Nous maintenons les plus hauts standards dans tout ce que nous faisons."
+        },
+        3: {
+          title: "Collaboration",
+          description: "Nous travaillons étroitement avec nos clients pour atteindre le succès ensemble."
+        }
+      }
+    }
+  }
+};
+
+// Italian translations
+const itTranslations = {
+  nav: {
+    home: "Home",
+    services: "Servizi",
+    portfolio: "Portfolio",
+    about: "Chi Siamo",
+    contact: "Contatti",
+    getStarted: "Inizia Ora"
+  },
+  hero: {
+    title: "Trasforma la tua azienda",
+    subtitle: "con il marketing digitale",
+    description: "Guida la crescita e raggiungi i tuoi obiettivi aziendali con le nostre soluzioni complete di marketing digitale. Dalla strategia all'esecuzione, siamo qui per aiutarti a raggiungere il successo.",
+    cta: {
+      primary: "Inizia Ora",
+      secondary: "Vedi Portfolio"
+    },
+    imageAlt: "Riunione del team marketing"
+  },
+  services: {
+    title: "I Nostri Servizi",
+    subtitle: "Soluzioni di marketing digitale complete su misura per le tue esigenze",
+    viewAll: "Vedi Tutti i Servizi",
+    digitalMarketing: {
+      title: "Marketing Digitale",
+      description: "Campagne strategiche di marketing digitale che generano risultati"
+    },
+    socialMedia: {
+      title: "Social Media",
+      description: "Gestione coinvolgente dei social media per costruire la tua presenza"
+    },
+    contentCreation: {
+      title: "Creazione Contenuti",
+      description: "Contenuti coinvolgenti che raccontano la storia del tuo brand"
+    },
+    analytics: {
+      title: "Analisi",
+      description: "Approfondimenti basati sui dati per ottimizzare la tua strategia"
+    },
+    communityManagement: {
+      title: "Gestione Community",
+      description: "Costruzione e cura della tua community online"
+    },
+    seo: {
+      title: "SEO",
+      description: "Miglioramento della visibilità nei risultati di ricerca"
+    }
+  },
+  portfolio: {
+    title: "Lavori in Evidenza",
+    subtitle: "Progetti recenti che mostrano la nostra esperienza",
+    viewAll: "Vedi Portfolio Completo",
+    items: {
+      techStartup: {
+        title: "Rebranding Startup Tech",
+        description: "Trasformazione digitale completa per un'azienda tech in crescita",
+        category: "Brand & Strategia"
+      },
+      ecommerce: {
+        title: "Crescita E-commerce",
+        description: "Aumento del 200% delle vendite online attraverso il marketing strategico",
+        category: "Marketing Digitale"
+      },
+      socialMedia: {
+        title: "Campagna Social Media",
+        description: "Campagna virale che raggiunge milioni di utenti coinvolti",
+        category: "Social Media"
+      }
+    }
+  },
+  about: {
+    title: "Chi Siamo",
+    description: "BissClick è un'agenzia di marketing digitale completa dedicata ad aiutare le aziende a prosperare nell'era digitale. Il nostro team di esperti combina creatività e strategie basate sui dati per offrire risultati eccezionali.",
+    mission: {
+      title: "La Nostra Missione",
+      description: "Potenziare le aziende con soluzioni innovative di marketing digitale che guidano la crescita, migliorano la visibilità del brand e creano connessioni significative con il loro pubblico."
+    },
+    vision: {
+      title: "La Nostra Visione",
+      description: "Essere il partner di marketing digitale leader per le aziende che cercano una crescita trasformativa attraverso strategie creative e orientate ai risultati."
+    },
+    team: {
+      title: "Il Nostro Team",
+      description: "Incontra gli esperti appassionati dietro il successo di BissClick. Il nostro team diversificato riunisce anni di esperienza in marketing digitale, design e strategia.",
+      members: {
+        1: {
+          name: "Sarah Johnson",
+          role: "CEO e Fondatrice",
+          bio: "Con oltre 15 anni di esperienza nel marketing, Sarah guida il nostro team con visione ed esperienza.",
+          image: "https://images.unsplash.com/photo-1531545514256-b1400bc00f31"
+        },
+        2: {
+          name: "Michael Chen",
+          role: "Direttore Marketing Digitale",
+          bio: "Michael è specializzato nella creazione di strategie di marketing basate sui dati che generano risultati.",
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+        },
+        3: {
+          name: "Emma Wilson",
+          role: "Direttrice Creativa",
+          bio: "Emma dà vita ai brand attraverso lo storytelling visivo e il design.",
+          image: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
+        },
+        4: {
+          name: "David Park",
+          role: "Manager Social Media",
+          bio: "David è un esperto nella costruzione di community sui social media.",
+          image: "https://images.unsplash.com/photo-1556691421-cf15fe27a0b6"
+        }
+      }
+    },
+    values: {
+      title: "I Nostri Valori",
+      items: {
+        1: {
+          title: "Innovazione",
+          description: "Restiamo al passo con le tendenze digitali per offrire soluzioni all'avanguardia."
+        },
+        2: {
+          title: "Eccellenza",
+          description: "Manteniamo i più alti standard in tutto ciò che facciamo."
+        },
+        3: {
+          title: "Collaborazione",
+          description: "Lavoriamo a stretto contatto con i nostri clienti per raggiungere il successo condiviso."
+        }
+      }
+    }
+  }
+};
+
+// Portuguese translations
+const ptTranslations = {
+  nav: {
+    home: "Início",
+    services: "Serviços",
+    portfolio: "Portfólio",
+    about: "Sobre",
+    contact: "Contato",
+    getStarted: "Começar"
+  },
+  hero: {
+    title: "Transforme seu negócio",
+    subtitle: "com marketing digital",
+    description: "Impulsione o crescimento e alcance seus objetivos empresariais com nossas soluções abrangentes de marketing digital. Da estratégia à execução, estamos aqui para ajudar você a ter sucesso.",
+    cta: {
+      primary: "Começar",
+      secondary: "Ver Portfólio"
+    },
+    imageAlt: "Reunião da equipe de marketing"
+  },
+  services: {
+    title: "Nossos Serviços",
+    subtitle: "Soluções abrangentes de marketing digital adaptadas às suas necessidades",
+    viewAll: "Ver Todos os Serviços",
+    digitalMarketing: {
+      title: "Marketing Digital",
+      description: "Campanhas estratégicas de marketing digital que geram resultados"
+    },
+    socialMedia: {
+      title: "Mídias Sociais",
+      description: "Gestão envolvente de mídias sociais para construir sua presença"
+    },
+    contentCreation: {
+      title: "Criação de Conteúdo",
+      description: "Conteúdo envolvente que conta a história da sua marca"
+    },
+    analytics: {
+      title: "Análise",
+      description: "Insights baseados em dados para otimizar sua estratégia"
+    },
+    communityManagement: {
+      title: "Gestão de Comunidade",
+      description: "Construção e nutrição da sua comunidade online"
+    },
+    seo: {
+      title: "SEO",
+      description: "Melhorando sua visibilidade nos resultados de busca"
+    }
+  },
+  portfolio: {
+    title: "Trabalhos em Destaque",
+    subtitle: "Projetos recentes que demonstram nossa experiência",
+    viewAll: "Ver Portfólio Completo",
+    items: {
+      techStartup: {
+        title: "Rebranding de Startup",
+        description: "Transformação digital completa para uma empresa de tecnologia em crescimento",
+        category: "Marca & Estratégia"
+      },
+      ecommerce: {
+        title: "Crescimento E-commerce",
+        description: "Aumento de 200% nas vendas online através de marketing estratégico",
+        category: "Marketing Digital"
+      },
+      socialMedia: {
+        title: "Campanha de Mídias Sociais",
+        description: "Campanha viral alcançando milhões de usuários engajados",
+        category: "Mídias Sociais"
+      }
+    }
+  },
+  about: {
+    title: "Sobre Nós",
+    description: "BissClick é uma agência de marketing digital completa dedicada a ajudar empresas a prosperar na era digital. Nossa equipe de especialistas combina criatividade com estratégias baseadas em dados para entregar resultados excepcionais.",
+    mission: {
+      title: "Nossa Missão",
+      description: "Capacitar empresas com soluções inovadoras de marketing digital que impulsionam o crescimento, melhoram a visibilidade da marca e criam conexões significativas com seu público."
+    },
+    vision: {
+      title: "Nossa Visão",
+      description: "Ser o principal parceiro de marketing digital para empresas que buscam crescimento transformador através de estratégias criativas e orientadas por resultados."
+    },
+    team: {
+      title: "Nossa Equipe",
+      description: "Conheça os especialistas apaixonados por trás do sucesso da BissClick. Nossa equipe diversificada reúne anos de experiência em marketing digital, design e estratégia.",
+      members: {
+        1: {
+          name: "Sarah Johnson",
+          role: "CEO e Fundadora",
+          bio: "Com mais de 15 anos de experiência em marketing, Sarah lidera nossa equipe com visão e expertise.",
+          image: "https://images.unsplash.com/photo-1531545514256-b1400bc00f31"
+        },
+        2: {
+          name: "Michael Chen",
+          role: "Diretor de Marketing Digital",
+          bio: "Michael é especializado em criar estratégias de marketing baseadas em dados que geram resultados.",
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+        },
+        3: {
+          name: "Emma Wilson",
+          role: "Diretora Criativa",
+          bio: "Emma dá vida às marcas através de narrativas visuais e design cativante.",
+          image: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
+        },
+        4: {
+          name: "David Park",
+          role: "Gerente de Mídias Sociais",
+          bio: "David é especialista em construir comunidades em mídias sociais.",
+          image: "https://images.unsplash.com/photo-1556691421-cf15fe27a0b6"
+        }
+      }
+    },
+    values: {
+      title: "Nossos Valores",
+      items: {
+        1: {
+          title: "Inovação",
+          description: "Mantemos-nos à frente das tendências digitais para oferecer soluções inovadoras."
+        },
+        2: {
+          title: "Excelência",
+          description: "Mantemos os mais altos padrões em tudo o que fazemos."
+        },
+        3: {
+          title: "Colaboração",
+          description: "Trabalhamos em estreita colaboração com nossos clientes para alcançar o sucesso compartilhado."
+        }
+      }
+    }
+  }
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
       en: { translation: enTranslations },
-      es: { translation: esTranslations }
+      es: { translation: esTranslations },
+      fr: { translation: frTranslations },
+      it: { translation: itTranslations },
+      pt: { translation: ptTranslations }
     },
     fallbackLng: "en",
     interpolation: {
