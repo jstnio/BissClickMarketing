@@ -131,6 +131,45 @@ const enTranslations = {
         }
       }
     }
+  },
+  contact: {
+    title: "Contact Us",
+    description: "Ready to transform your digital presence? Get in touch with us today and let's discuss how we can help your business grow.",
+    form: {
+      name: "Name",
+      namePlaceholder: "Your name",
+      email: "Email",
+      emailPlaceholder: "your@email.com",
+      company: "Company (Optional)",
+      companyPlaceholder: "Your company",
+      message: "Message",
+      messagePlaceholder: "How can we help you?",
+      submit: "Send Message",
+      sending: "Sending..."
+    },
+    success: {
+      title: "Message sent!",
+      description: "We'll get back to you as soon as possible."
+    },
+    error: {
+      title: "Error",
+      description: "Failed to send message. Please try again."
+    },
+    info: {
+      getInTouch: {
+        title: "Get in Touch",
+        description: "Whether you have a question about our services, pricing, or just want to say hello, we'd love to hear from you."
+      },
+      location: {
+        title: "Office Location",
+        address: "123 Marketing Street\nDigital City, DC 12345\nUnited States"
+      },
+      contact: {
+        title: "Contact Information",
+        email: "Email: hello@bissclick.com",
+        phone: "Phone: (555) 123-4567"
+      }
+    }
   }
 };
 
@@ -261,6 +300,45 @@ const esTranslations = {
           title: "Colaboración",
           description: "Trabajamos estrechamente con nuestros clientes para lograr el éxito compartido."
         }
+      }
+    }
+  },
+  contact: {
+    title: "Contáctanos",
+    description: "¿Listo para transformar tu presencia digital? Ponte en contacto con nosotros hoy y hablemos sobre cómo podemos ayudar a crecer tu negocio.",
+    form: {
+      name: "Nombre",
+      namePlaceholder: "Tu nombre",
+      email: "Correo electrónico",
+      emailPlaceholder: "tu@email.com",
+      company: "Empresa (Opcional)",
+      companyPlaceholder: "Tu empresa",
+      message: "Mensaje",
+      messagePlaceholder: "¿Cómo podemos ayudarte?",
+      submit: "Enviar Mensaje",
+      sending: "Enviando..."
+    },
+    success: {
+      title: "¡Mensaje enviado!",
+      description: "Nos pondremos en contacto contigo lo antes posible."
+    },
+    error: {
+      title: "Error",
+      description: "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    info: {
+      getInTouch: {
+        title: "Ponte en Contacto",
+        description: "Si tienes alguna pregunta sobre nuestros servicios, precios o simplemente quieres saludar, nos encantaría saber de ti."
+      },
+      location: {
+        title: "Ubicación de la Oficina",
+        address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
+      },
+      contact: {
+        title: "Información de Contacto",
+        email: "Correo: hello@bissclick.com",
+        phone: "Teléfono: (555) 123-4567"
       }
     }
   }
@@ -395,6 +473,45 @@ const frTranslations = {
         }
       }
     }
+  },
+  contact: {
+    title: "Contactez-nous",
+    description: "Prêt à transformer votre présence numérique ? Contactez-nous aujourd'hui et discutons de la façon dont nous pouvons aider votre entreprise à se développer.",
+    form: {
+      name: "Nom",
+      namePlaceholder: "Votre nom",
+      email: "Email",
+      emailPlaceholder: "votre@email.com",
+      company: "Entreprise (Optionnel)",
+      companyPlaceholder: "Votre entreprise",
+      message: "Message",
+      messagePlaceholder: "Comment pouvons-nous vous aider ?",
+      submit: "Envoyer le Message",
+      sending: "Envoi en cours..."
+    },
+    success: {
+      title: "Message envoyé !",
+      description: "Nous vous répondrons dès que possible."
+    },
+    error: {
+      title: "Erreur",
+      description: "Échec de l'envoi du message. Veuillez réessayer."
+    },
+    info: {
+      getInTouch: {
+        title: "Prenez Contact",
+        description: "Que vous ayez une question sur nos services, nos tarifs ou que vous souhaitiez simplement dire bonjour, nous serions ravis de vous entendre."
+      },
+      location: {
+        title: "Adresse du Bureau",
+        address: "123 Marketing Street\nDigital City, DC 12345\nÉtats-Unis"
+      },
+      contact: {
+        title: "Informations de Contact",
+        email: "Email : hello@bissclick.com",
+        phone: "Téléphone : (555) 123-4567"
+      }
+    }
   }
 };
 
@@ -525,6 +642,45 @@ const itTranslations = {
           title: "Collaborazione",
           description: "Lavoriamo a stretto contatto con i nostri clienti per raggiungere il successo condiviso."
         }
+      }
+    }
+  },
+  contact: {
+    title: "Contattaci",
+    description: "Pronto a trasformare la tua presenza digitale? Contattaci oggi e discutiamo di come possiamo aiutare la tua azienda a crescere.",
+    form: {
+      name: "Nome",
+      namePlaceholder: "Il tuo nome",
+      email: "Email",
+      emailPlaceholder: "tua@email.com",
+      company: "Azienda (Opzionale)",
+      companyPlaceholder: "La tua azienda",
+      message: "Messaggio",
+      messagePlaceholder: "Come possiamo aiutarti?",
+      submit: "Invia Messaggio",
+      sending: "Invio in corso..."
+    },
+    success: {
+      title: "Messaggio inviato!",
+      description: "Ti risponderemo il prima possibile."
+    },
+    error: {
+      title: "Errore",
+      description: "Invio del messaggio fallito. Per favore riprova."
+    },
+    info: {
+      getInTouch: {
+        title: "Mettiti in Contatto",
+        description: "Che tu abbia una domanda sui nostri servizi, sui prezzi o voglia semplicemente salutare, ci farebbe piacere sentirti."
+      },
+      location: {
+        title: "Sede dell'Ufficio",
+        address: "123 Marketing Street\nDigital City, DC 12345\nStati Uniti"
+      },
+      contact: {
+        title: "Informazioni di Contatto",
+        email: "Email: hello@bissclick.com",
+        phone: "Telefono: (555) 123-4567"
       }
     }
   }
@@ -658,6 +814,45 @@ const ptTranslations = {
           description: "Trabalhamos em estreita colaboração com nossos clientes para alcançar o sucesso compartilhado."
         }
       }
+    },
+    contact: {
+      title: "Contate-nos",
+      description: "Pronto para transformar sua presença digital? Entre em contato conosco hoje e vamos discutir como podemos ajudar seu negócio a crescer.",
+      form: {
+        name: "Nome",
+        namePlaceholder: "Seu nome",
+        email: "Email",
+        emailPlaceholder: "seu@email.com",
+        company: "Empresa (Opcional)",
+        companyPlaceholder: "Sua empresa",
+        message: "Mensagem",
+        messagePlaceholder: "Como podemos ajudar você?",
+        submit: "Enviar Mensagem",
+        sending: "Enviando..."
+      },
+      success: {
+        title: "Mensagem enviada!",
+        description: "Retornaremos o mais breve possível."
+      },
+      error: {
+        title: "Erro",
+        description: "Falha ao enviar mensagem. Por favor, tente novamente."
+      },
+      info: {
+        getInTouch: {
+          title: "Entre em Contato",
+          description: "Se você tem uma pergunta sobre nossos serviços, preços ou apenas quer dizer olá, adoraríamos ouvir você."
+        },
+        location: {
+          title: "Localização do Escritório",
+          address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
+        },
+        contact: {
+          title: "Informações de Contato",
+          email: "Email: hello@bissclick.com",
+          phone: "Telefone: (555) 123-4567"
+        }
+      }
     }
   }
 };
@@ -676,13 +871,6 @@ i18n
     fallbackLng: "en",
     interpolation: {
       escapeValue: false
-    },
-    detection: {
-      order: ['localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
-      lookupLocalStorage: 'i18nextLng',
-      caches: ['localStorage'],
-      cookieMinutes: 43200, // 30 days
-      lookupFromPathIndex: 0
     }
   });
 
