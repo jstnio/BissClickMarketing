@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu, X, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -10,6 +10,7 @@ const links = [
   { href: "/services", label: "nav.services" },
   { href: "/portfolio", label: "nav.portfolio" },
   { href: "/about", label: "nav.about" },
+  { href: "/chat", label: "nav.chat" },
   { href: "/contact", label: "nav.contact" }
 ];
 

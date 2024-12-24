@@ -170,6 +170,16 @@ const enTranslations = {
         phone: "Phone: (555) 123-4567"
       }
     }
+  },
+  chat: {
+    title: "Chat with Our Marketing Expert",
+    description: "Get instant answers to your marketing questions and learn how we can help your business grow.",
+    welcome: "Hello! I'm your BissClick marketing assistant. How can I help you today?",
+    inputPlaceholder: "Type your message here...",
+    error: {
+      title: "Error",
+      description: "Failed to send message. Please try again."
+    }
   }
 };
 
@@ -340,6 +350,16 @@ const esTranslations = {
         email: "Correo: hello@bissclick.com",
         phone: "Teléfono: (555) 123-4567"
       }
+    }
+  },
+  chat: {
+    title: "Chatea con Nuestro Experto en Marketing",
+    description: "Obtén respuestas instantáneas a tus preguntas de marketing y descubre cómo podemos ayudar a tu negocio a crecer.",
+    welcome: "¡Hola! Soy tu asistente de marketing de BissClick. ¿Cómo puedo ayudarte hoy?",
+    inputPlaceholder: "Escribe tu mensaje aquí...",
+    error: {
+      title: "Error",
+      description: "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
     }
   }
 };
@@ -512,6 +532,16 @@ const frTranslations = {
         phone: "Téléphone : (555) 123-4567"
       }
     }
+  },
+  chat: {
+    title: "Discutez avec Notre Expert Marketing",
+    description: "Obtenez des réponses instantanées à vos questions marketing et découvrez comment nous pouvons aider votre entreprise à se développer.",
+    welcome: "Bonjour ! Je suis votre assistant marketing BissClick. Comment puis-je vous aider aujourd'hui ?",
+    inputPlaceholder: "Tapez votre message ici...",
+    error: {
+      title: "Erreur",
+      description: "Échec de l'envoi du message. Veuillez réessayer."
+    }
   }
 };
 
@@ -683,6 +713,16 @@ const itTranslations = {
         phone: "Telefono: (555) 123-4567"
       }
     }
+  },
+  chat: {
+    title: "Chatta con il Nostro Esperto di Marketing",
+    description: "Ottieni risposte immediate alle tue domande di marketing e scopri come possiamo aiutare la tua azienda a crescere.",
+    welcome: "Ciao! Sono il tuo assistente marketing BissClick. Come posso aiutarti oggi?",
+    inputPlaceholder: "Scrivi il tuo messaggio qui...",
+    error: {
+      title: "Errore",
+      description: "Impossibile inviare il messaggio. Per favore riprova."
+    }
   }
 };
 
@@ -853,6 +893,16 @@ const ptTranslations = {
         email: "Email: hello@bissclick.com",
         phone: "Telefone: (555) 123-4567"
       }
+    }
+  },
+  chat: {
+    title: "Converse com Nosso Especialista em Marketing",
+    description: "Obtenha respostas instantâneas para suas perguntas de marketing e descubra como podemos ajudar seu negócio a crescer.",
+    welcome: "Olá! Sou seu assistente de marketing BissClick. Como posso ajudar você hoje?",
+    inputPlaceholder: "Digite sua mensagem aqui...",
+    error: {
+      title: "Erro",
+      description: "Falha ao enviar mensagem. Por favor, tente novamente."
     }
   }
 };

@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Chat from "./pages/Chat";
 import { AlertCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/about" component={About} />
+          <Route path="/chat" component={Chat} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
