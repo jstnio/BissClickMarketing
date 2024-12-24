@@ -21,7 +21,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
-              <a className="text-2xl font-bold text-primary">BissClick</a>
+              <span className="text-2xl font-bold text-primary cursor-pointer">BissClick</span>
             </Link>
           </div>
 
@@ -29,19 +29,21 @@ export function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             {links.map((link) => (
               <Link key={link.href} href={link.href}>
-                <a
-                  className={`px-3 py-2 rounded-md text-sm font-medium ${
+                <span
+                  className={`px-3 py-2 rounded-md text-sm font-medium cursor-pointer ${
                     location === link.href
                       ? "text-primary"
                       : "text-gray-600 hover:text-primary"
                   }`}
                 >
                   {link.label}
-                </a>
+                </span>
               </Link>
             ))}
             <Button asChild>
-              <Link href="/contact">Get Started</Link>
+              <Link href="/contact">
+                <span>Get Started</span>
+              </Link>
             </Button>
           </div>
 
@@ -68,8 +70,8 @@ export function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1">
             {links.map((link) => (
               <Link key={link.href} href={link.href}>
-                <a
-                  className={`block px-3 py-2 rounded-md text-base font-medium ${
+                <span
+                  className={`block px-3 py-2 rounded-md text-base font-medium cursor-pointer ${
                     location === link.href
                       ? "text-primary bg-primary/5"
                       : "text-gray-600 hover:text-primary hover:bg-primary/5"
@@ -77,7 +79,7 @@ export function Navbar() {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
-                </a>
+                </span>
               </Link>
             ))}
           </div>
