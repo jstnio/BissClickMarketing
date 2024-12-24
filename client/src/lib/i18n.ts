@@ -814,44 +814,44 @@ const ptTranslations = {
           description: "Trabalhamos em estreita colaboração com nossos clientes para alcançar o sucesso compartilhado."
         }
       }
+    }
+  },
+  contact: {
+    title: "Contate-nos",
+    description: "Pronto para transformar sua presença digital? Entre em contato conosco hoje e vamos discutir como podemos ajudar seu negócio a crescer.",
+    form: {
+      name: "Nome",
+      namePlaceholder: "Seu nome",
+      email: "Email",
+      emailPlaceholder: "seu@email.com",
+      company: "Empresa (Opcional)",
+      companyPlaceholder: "Sua empresa",
+      message: "Mensagem",
+      messagePlaceholder: "Como podemos ajudar você?",
+      submit: "Enviar Mensagem",
+      sending: "Enviando..."
     },
-    contact: {
-      title: "Contate-nos",
-      description: "Pronto para transformar sua presença digital? Entre em contato conosco hoje e vamos discutir como podemos ajudar seu negócio a crescer.",
-      form: {
-        name: "Nome",
-        namePlaceholder: "Seu nome",
-        email: "Email",
-        emailPlaceholder: "seu@email.com",
-        company: "Empresa (Opcional)",
-        companyPlaceholder: "Sua empresa",
-        message: "Mensagem",
-        messagePlaceholder: "Como podemos ajudar você?",
-        submit: "Enviar Mensagem",
-        sending: "Enviando..."
+    success: {
+      title: "Mensagem enviada!",
+      description: "Retornaremos o mais breve possível."
+    },
+    error: {
+      title: "Erro",
+      description: "Falha ao enviar mensagem. Por favor, tente novamente."
+    },
+    info: {
+      getInTouch: {
+        title: "Entre em Contato",
+        description: "Se você tem uma pergunta sobre nossos serviços, preços ou apenas quer dizer olá, adoraríamos ouvir você."
       },
-      success: {
-        title: "Mensagem enviada!",
-        description: "Retornaremos o mais breve possível."
+      location: {
+        title: "Localização do Escritório",
+        address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
       },
-      error: {
-        title: "Erro",
-        description: "Falha ao enviar mensagem. Por favor, tente novamente."
-      },
-      info: {
-        getInTouch: {
-          title: "Entre em Contato",
-          description: "Se você tem uma pergunta sobre nossos serviços, preços ou apenas quer dizer olá, adoraríamos ouvir você."
-        },
-        location: {
-          title: "Localização do Escritório",
-          address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
-        },
-        contact: {
-          title: "Informações de Contato",
-          email: "Email: hello@bissclick.com",
-          phone: "Telefone: (555) 123-4567"
-        }
+      contact: {
+        title: "Informações de Contato",
+        email: "Email: hello@bissclick.com",
+        phone: "Telefone: (555) 123-4567"
       }
     }
   }
