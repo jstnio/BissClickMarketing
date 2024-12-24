@@ -2,18 +2,21 @@ import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/portfolio", label: "Portfolio" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" }
+  { href: "/", label: "nav.home" },
+  { href: "/services", label: "nav.services" },
+  { href: "/portfolio", label: "nav.portfolio" },
+  { href: "/about", label: "nav.about" },
+  { href: "/contact", label: "nav.contact" }
 ];
 
 export function Navbar() {
   const [location] = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <nav className="border-b bg-white">
@@ -36,13 +39,14 @@ export function Navbar() {
                       : "text-gray-600 hover:text-primary"
                   }`}
                 >
-                  {link.label}
+                  {t(link.label)}
                 </span>
               </Link>
             ))}
+            <LanguageSwitcher />
             <Button asChild>
               <Link href="/contact">
-                <span>Get Started</span>
+                <span>{t('nav.getStarted')}</span>
               </Link>
             </Button>
           </div>
@@ -78,7 +82,7 @@ export function Navbar() {
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {link.label}
+                  {t(link.label)}
                 </span>
               </Link>
             ))}
