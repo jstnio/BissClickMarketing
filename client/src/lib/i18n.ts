@@ -9,6 +9,7 @@ const enTranslations = {
     services: "Services",
     portfolio: "Portfolio",
     about: "About",
+    chat: "Chat",
     contact: "Contact",
     getStarted: "Get Started"
   },
@@ -190,6 +191,7 @@ const esTranslations = {
     services: "Servicios",
     portfolio: "Portafolio",
     about: "Nosotros",
+    chat: "Chat",
     contact: "Contacto",
     getStarted: "Empezar"
   },
@@ -371,6 +373,7 @@ const frTranslations = {
     services: "Services",
     portfolio: "Portfolio",
     about: "À Propos",
+    chat: "Chat",
     contact: "Contact",
     getStarted: "Commencer"
   },
@@ -552,6 +555,7 @@ const itTranslations = {
     services: "Servizi",
     portfolio: "Portfolio",
     about: "Chi Siamo",
+    chat: "Chat",
     contact: "Contatti",
     getStarted: "Inizia Ora"
   },
@@ -733,6 +737,7 @@ const ptTranslations = {
     services: "Serviços",
     portfolio: "Portfólio",
     about: "Sobre",
+    chat: "Chat",
     contact: "Contato",
     getStarted: "Começar"
   },
