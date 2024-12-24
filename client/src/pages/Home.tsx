@@ -13,8 +13,11 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Hero />
@@ -23,9 +26,9 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900">Our Services</h2>
+            <h2 className="text-3xl font-bold text-gray-900">{t('services.title')}</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Comprehensive digital marketing solutions tailored to your needs
+              {t('services.subtitle')}
             </p>
           </div>
 
@@ -34,40 +37,40 @@ export default function Home() {
             className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
           >
             <ServiceCard
-              title="Digital Marketing"
-              description="Strategic digital marketing campaigns that drive results and ROI"
+              titleKey="services.digitalMarketing.title"
+              descriptionKey="services.digitalMarketing.description"
               icon={Megaphone}
             />
             <ServiceCard
-              title="Social Media"
-              description="Engaging social media management to build your brand presence"
+              titleKey="services.socialMedia.title"
+              descriptionKey="services.socialMedia.description"
               icon={Share2}
             />
             <ServiceCard
-              title="Content Creation"
-              description="Compelling content that tells your brand story"
+              titleKey="services.contentCreation.title"
+              descriptionKey="services.contentCreation.description"
               icon={PenTool}
             />
             <ServiceCard
-              title="Analytics"
-              description="Data-driven insights to optimize your marketing strategy"
+              titleKey="services.analytics.title"
+              descriptionKey="services.analytics.description"
               icon={BarChart}
             />
             <ServiceCard
-              title="Community Management"
-              description="Building and nurturing your online community"
+              titleKey="services.communityManagement.title"
+              descriptionKey="services.communityManagement.description"
               icon={MessageSquare}
             />
             <ServiceCard
-              title="SEO"
-              description="Improving your visibility in search results"
+              titleKey="services.seo.title"
+              descriptionKey="services.seo.description"
               icon={Search}
             />
           </motion.div>
 
           <div className="mt-12 text-center">
             <Button asChild size="lg">
-              <Link href="/services">View All Services</Link>
+              <Link href="/services">{t('services.viewAll')}</Link>
             </Button>
           </div>
         </div>
@@ -77,9 +80,9 @@ export default function Home() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900">Featured Work</h2>
+            <h2 className="text-3xl font-bold text-gray-900">{t('portfolio.title')}</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Recent projects that showcase our expertise
+              {t('portfolio.subtitle')}
             </p>
           </div>
 
@@ -88,28 +91,28 @@ export default function Home() {
             className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
           >
             <PortfolioCard
-              title="Tech Startup Rebrand"
-              description="Complete digital transformation for a growing tech company"
+              title={t('portfolio.items.techStartup.title')}
+              description={t('portfolio.items.techStartup.description')}
               image="https://images.unsplash.com/photo-1556691421-cf15fe27a0b6"
-              category="Branding & Strategy"
+              category={t('portfolio.items.techStartup.category')}
             />
             <PortfolioCard
-              title="E-commerce Growth"
-              description="Increased online sales by 200% through strategic marketing"
+              title={t('portfolio.items.ecommerce.title')}
+              description={t('portfolio.items.ecommerce.description')}
               image="https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
-              category="Digital Marketing"
+              category={t('portfolio.items.ecommerce.category')}
             />
             <PortfolioCard
-              title="Social Media Campaign"
-              description="Viral campaign reaching millions of engaged users"
+              title={t('portfolio.items.socialMedia.title')}
+              description={t('portfolio.items.socialMedia.description')}
               image="https://images.unsplash.com/photo-1532623034127-3d92b01fb3c5"
-              category="Social Media"
+              category={t('portfolio.items.socialMedia.category')}
             />
           </motion.div>
 
           <div className="mt-12 text-center">
             <Button asChild size="lg">
-              <Link href="/portfolio">View Full Portfolio</Link>
+              <Link href="/portfolio">{t('portfolio.viewAll')}</Link>
             </Button>
           </div>
         </div>

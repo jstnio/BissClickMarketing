@@ -2,8 +2,11 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { fadeIn, slideIn } from "@/lib/animations";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 
 export function Hero() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative overflow-hidden bg-white">
       <div className="max-w-7xl mx-auto">
@@ -14,16 +17,14 @@ export function Hero() {
                 {...fadeIn}
                 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
               >
-                <span className="block">Transform your business</span>{" "}
-                <span className="block text-primary">with digital marketing</span>
+                <span className="block">{t('hero.title')}</span>{" "}
+                <span className="block text-primary">{t('hero.subtitle')}</span>
               </motion.h1>
               <motion.p
                 {...slideIn}
                 className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
-                Drive growth and achieve your business goals with our comprehensive
-                digital marketing solutions. From strategy to execution, we're here
-                to help you succeed.
+                {t('hero.description')}
               </motion.p>
               <motion.div
                 {...fadeIn}
@@ -31,12 +32,12 @@ export function Hero() {
               >
                 <div className="rounded-md shadow">
                   <Button asChild size="lg">
-                    <Link href="/contact">Get Started</Link>
+                    <Link href="/contact">{t('hero.cta.primary')}</Link>
                   </Button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Button asChild variant="outline" size="lg">
-                    <Link href="/portfolio">View Portfolio</Link>
+                    <Link href="/portfolio">{t('hero.cta.secondary')}</Link>
                   </Button>
                 </div>
               </motion.div>
@@ -48,7 +49,7 @@ export function Hero() {
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
-          alt="Marketing team meeting"
+          alt={t('hero.imageAlt')}
         />
       </div>
     </div>
