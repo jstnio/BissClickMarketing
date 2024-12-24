@@ -87,6 +87,11 @@ i18n
     fallbackLng: "en",
     interpolation: {
       escapeValue: false
+    },
+    detection: {
+      order: ['navigator', 'htmlTag', 'path', 'subdomain'],
+      caches: ['localStorage'],
+      lookupFromPathIndex: 0,
     }
   });
 
