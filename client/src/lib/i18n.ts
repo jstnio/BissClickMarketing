@@ -50,6 +50,18 @@ const enTranslations = {
     seo: {
       title: "SEO",
       description: "Improving your visibility in search results"
+    },
+    email: {
+      title: "Email",
+      description: "Strategic email marketing campaigns that nurture leads and drive conversions"
+    },
+    growth: {
+      title: "Growth",
+      description: "Data-driven growth strategies to scale your business effectively"
+    },
+    visual: {
+      title: "Visual",
+      description: "Professional visual content creation and branding solutions"
     }
   },
   portfolio: {
@@ -261,6 +273,18 @@ const esTranslations = {
     seo: {
       title: "SEO",
       description: "Mejorando tu visibilidad en los resultados de búsqueda"
+    },
+    email: {
+      title: "Email",
+      description: "Campañas estratégicas de email marketing que nutren leads y generan conversiones"
+    },
+    growth: {
+      title: "Growth",
+      description: "Estrategias de crecimiento basadas en datos para escalar tu negocio efectivamente"
+    },
+    visual: {
+      title: "Visual",
+      description: "Creación de contenido visual profesional y soluciones de marca"
     }
   },
   portfolio: {
@@ -472,6 +496,18 @@ const frTranslations = {
     seo: {
       title: "SEO",
       description: "Amélioration de votre visibilité dans les résultats de recherche"
+    },
+    email: {
+      title: "Email",
+      description: "Campagnes stratégiques d'email marketing qui nourrissent les prospects et génèrent des conversions"
+    },
+    growth: {
+      title: "Growth",
+      description: "Stratégies de croissance basées sur les données pour développer votre entreprise efficacement"
+    },
+    visual: {
+      title: "Visual",
+      description: "Création de contenu visuel professionnel et solutions de marque"
     }
   },
   portfolio: {
@@ -683,6 +719,18 @@ const itTranslations = {
     seo: {
       title: "SEO",
       description: "Miglioramento della visibilità nei risultati di ricerca"
+    },
+    email: {
+      title: "Email",
+      description: "Campagne strategiche di email marketing che nutrono i lead e generano conversioni"
+    },
+    growth: {
+      title: "Growth",
+      description: "Strategie di crescita basate sui dati per scalare il tuo business in modo efficace"
+    },
+    visual: {
+      title: "Visual",
+      description: "Creazione di contenuti visivi professionali e soluzioni di branding"
     }
   },
   portfolio: {
@@ -737,7 +785,7 @@ const itTranslations = {
         3: {
           name: "Emma Wilson",
           role: "Direttrice Creativa",
-          bio: "Emma dà vita ai brand attraverso lo storytelling visivo e il design.",
+          bio: "Emma dà vita ai brand attraverso lostorytelling visivo e il design.",
           image: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
         },
         4: {
@@ -779,7 +827,8 @@ const itTranslations = {
       message: "Messaggio",
       messagePlaceholder: "Come possiamo aiutarti?",
       submit: "Invia Messaggio",
-      sending: "Invio in corso..."    },
+      sending: "Invio in corso..."
+    },
     success: {
       title: "Messaggio inviato!",
       description: "Ti risponderemo il prima possibile."
@@ -893,6 +942,18 @@ const ptTranslations = {
     seo: {
       title: "SEO",
       description: "Melhorando sua visibilidade nos resultados de busca"
+    },
+    email: {
+      title: "Email",
+      description: "Campanhas estratégicas de email marketing que nutrem leads e geram conversões"
+    },
+    growth: {
+      title: "Growth",
+      description: "Estratégias de crescimento baseadas em dados para escalar seu negócio efetivamente"
+    },
+    visual: {
+      title: "Visual",
+      description: "Criação de conteúdo visual profissional e soluções de marca"
     }
   },
   portfolio: {
