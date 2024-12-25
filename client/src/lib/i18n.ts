@@ -175,12 +175,12 @@ const enTranslations = {
       },
       location: {
         title: "Office Location",
-        address: "123 Marketing Street\nDigital City, DC 12345\nUnited States"
+        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nUnited States"
       },
       contact: {
         title: "Contact Information",
-        email: "Email: hello@bissclick.com",
-        phone: "Phone: (555) 123-4567"
+        email: "Email: hi@bissclick.com",
+        phone: "Phone: (646) 543-1988"
       }
     }
   },
@@ -398,12 +398,12 @@ const esTranslations = {
       },
       location: {
         title: "Ubicación de la Oficina",
-        address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
+        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nEstados Unidos"
       },
       contact: {
         title: "Información de Contacto",
-        email: "Correo: hello@bissclick.com",
-        phone: "Teléfono: (555) 123-4567"
+        email: "Email: hi@bissclick.com",
+        phone: "Teléfono: (646) 543-1988"
       }
     }
   },
@@ -621,12 +621,12 @@ const frTranslations = {
       },
       location: {
         title: "Adresse du Bureau",
-        address: "123 Marketing Street\nDigital City, DC 12345\nÉtats-Unis"
+        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nÉtats-Unis"
       },
       contact: {
         title: "Informations de Contact",
-        email: "Email : hello@bissclick.com",
-        phone: "Téléphone : (555) 123-4567"
+        email: "Email : hi@bissclick.com",
+        phone: "Téléphone : (646) 543-1988"
       }
     }
   },
@@ -784,7 +784,7 @@ const itTranslations = {
         },
         3: {
           name: "Emma Wilson",
-          role: "Direttrice Creativa",
+          role: "DirettriceCreativa",
           bio: "Emma dà vita ai brand attraverso lostorytelling visivo e il design.",
           image: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24"
         },
@@ -844,12 +844,12 @@ const itTranslations = {
       },
       location: {
         title: "Sede dell'Ufficio",
-        address: "123 Marketing Street\nDigital City, DC 12345\nStati Uniti"
+        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nStati Uniti"
       },
       contact: {
         title: "Informazioni di Contatto",
-        email: "Email: hello@bissclick.com",
-        phone: "Telefono: (555) 123-4567"
+        email: "Email: hi@bissclick.com",
+        phone: "Telefono: (646) 543-1988"
       }
     }
   },
@@ -1067,12 +1067,12 @@ const ptTranslations = {
       },
       location: {
         title: "Localização do Escritório",
-        address: "123 Marketing Street\nDigital City, DC 12345\nEstados Unidos"
+        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nEstados Unidos"
       },
       contact: {
         title: "Informações de Contato",
-        email: "Email: hello@bissclick.com",
-        phone: "Telefone: (555) 123-4567"
+        email: "Email: hi@bissclick.com",
+        phone: "Telefone: (646) 543-1988"
       }
     }
   },
