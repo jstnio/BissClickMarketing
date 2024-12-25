@@ -175,7 +175,7 @@ const enTranslations = {
       },
       location: {
         title: "Office Location",
-        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nUnited States"
+        address: "ATTIMOS LLC\n611 South Dupont Highway, Suite 102,\nDover, DE - 19901\nUnited States"
       },
       contact: {
         title: "Contact Information",
@@ -398,7 +398,7 @@ const esTranslations = {
       },
       location: {
         title: "Ubicación de la Oficina",
-        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nEstados Unidos"
+        address: "ATTIMOS LLC\n611 South Dupont Highway, Suite 102,\nDover, DE - 19901\nEstados Unidos"
       },
       contact: {
         title: "Información de Contacto",
@@ -621,7 +621,7 @@ const frTranslations = {
       },
       location: {
         title: "Adresse du Bureau",
-        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nÉtats-Unis"
+        address: "ATTIMOS LLC\n611 South Dupont Highway, Suite 102,\nDover, DE - 19901\nÉtats-Unis"
       },
       contact: {
         title: "Informations de Contact",
@@ -844,7 +844,7 @@ const itTranslations = {
       },
       location: {
         title: "Sede dell'Ufficio",
-        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nStati Uniti"
+        address: "ATTIMOS LLC\n611 South Dupont Highway, Suite 102,\nDover, DE - 19901\nStati Uniti"
       },
       contact: {
         title: "Informazioni di Contatto",
@@ -1067,7 +1067,7 @@ const ptTranslations = {
       },
       location: {
         title: "Localização do Escritório",
-        address: "611 South Dupont Highway, Suite 102, Dover, Delaware 19901\nEstados Unidos"
+        address: "ATTIMOS LLC\n611 South Dupont Highway, Suite 102,\nDover, DE - 19901\nEstados Unidos"
       },
       contact: {
         title: "Informações de Contato",
