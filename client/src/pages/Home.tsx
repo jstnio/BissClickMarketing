@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/Hero";
 import { ServiceCard } from "@/components/sections/ServiceCard";
 import { PortfolioCard } from "@/components/sections/PortfolioCard";
+import { TestimonialsCarousel } from "@/components/sections/TestimonialsCarousel";
 import { motion } from "framer-motion";
 import { staggerChildren } from "@/lib/animations";
 import {
@@ -75,6 +76,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <TestimonialsCarousel />
 
       {/* Featured Work Section */}
       <section className="py-24">

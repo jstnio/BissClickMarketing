@@ -181,6 +181,35 @@ const enTranslations = {
       title: "Error",
       description: "Failed to send message. Please try again."
     }
+  },
+  testimonials: {
+    title: "What Our Clients Say",
+    subtitle: "Discover how we've helped businesses achieve their digital marketing goals",
+    previous: "Previous testimonial",
+    next: "Next testimonial",
+    items: {
+      1: {
+        text: "BissClick transformed our online presence completely. Their strategic approach to digital marketing helped us achieve a 200% increase in leads within just six months.",
+        author: "John Anderson",
+        role: "CEO",
+        company: "TechVision Inc",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+      },
+      2: {
+        text: "The team's expertise in social media marketing is outstanding. They helped us build a strong community around our brand and significantly improved our engagement rates.",
+        author: "Maria Rodriguez",
+        role: "Marketing Director",
+        company: "GrowthSmart",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      3: {
+        text: "Working with BissClick has been a game-changer for our e-commerce business. Their data-driven approach and creative strategies have helped us double our online sales.",
+        author: "David Chen",
+        role: "Founder",
+        company: "EcoStyle",
+        image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+      }
+    }
   }
 };
 
@@ -362,6 +391,35 @@ const esTranslations = {
     error: {
       title: "Error",
       description: "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    }
+  },
+  testimonials: {
+    title: "Lo Que Dicen Nuestros Clientes",
+    subtitle: "Descubre cómo hemos ayudado a empresas a alcanzar sus objetivos de marketing digital",
+    previous: "Testimonio anterior",
+    next: "Siguiente testimonio",
+    items: {
+      1: {
+        text: "BissClick transformó completamente nuestra presencia en línea. Su enfoque estratégico en marketing digital nos ayudó a lograr un aumento del 200% en leads en solo seis meses.",
+        author: "John Anderson",
+        role: "CEO",
+        company: "TechVision Inc",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+      },
+      2: {
+        text: "La experiencia del equipo en marketing de redes sociales es excepcional. Nos ayudaron a construir una comunidad sólida alrededor de nuestra marca y mejoraron significativamente nuestras tasas de engagement.",
+        author: "Maria Rodriguez",
+        role: "Directora de Marketing",
+        company: "GrowthSmart",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      3: {
+        text: "Trabajar con BissClick ha sido un cambio radical para nuestro negocio de comercio electrónico. Su enfoque basado en datos y estrategias creativas nos han ayudado a duplicar nuestras ventas en línea.",
+        author: "David Chen",
+        role: "Fundador",
+        company: "EcoStyle",
+        image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+      }
     }
   }
 };
@@ -545,6 +603,35 @@ const frTranslations = {
       title: "Erreur",
       description: "Échec de l'envoi du message. Veuillez réessayer."
     }
+  },
+  testimonials: {
+    title: "Ce Que Disent Nos Clients",
+    subtitle: "Découvrez comment nous avons aidé les entreprises à atteindre leurs objectifs de marketing digital",
+    previous: "Témoignage précédent",
+    next: "Témoignage suivant",
+    items: {
+      1: {
+        text: "BissClick a complètement transformé notre présence en ligne. Leur approche stratégique du marketing digital nous a permis d'augmenter nos leads de 200% en seulement six mois.",
+        author: "John Anderson",
+        role: "PDG",
+        company: "TechVision Inc",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+      },
+      2: {
+        text: "L'expertise de l'équipe en marketing des réseaux sociaux est exceptionnelle. Ils nous ont aidés à construire une communauté solide autour de notre marque et ont considérablement amélioré nos taux d'engagement.",
+        author: "Maria Rodriguez",
+        role: "Directrice Marketing",
+        company: "GrowthSmart",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      3: {
+        text: "Travailler avec BissClick a changé la donne pour notre entreprise e-commerce. Leur approche basée sur les données et leurs stratégies créatives nous ont aidés à doubler nos ventes en ligne.",
+        author: "David Chen",
+        role: "Fondateur",
+        company: "EcoStyle",
+        image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+      }
+    }
   }
 };
 
@@ -692,8 +779,7 @@ const itTranslations = {
       message: "Messaggio",
       messagePlaceholder: "Come possiamo aiutarti?",
       submit: "Invia Messaggio",
-      sending: "Invio in corso..."
-    },
+      sending: "Invio in corso..."    },
     success: {
       title: "Messaggio inviato!",
       description: "Ti risponderemo il prima possibile."
@@ -726,6 +812,35 @@ const itTranslations = {
     error: {
       title: "Errore",
       description: "Impossibile inviare il messaggio. Per favore riprova."
+    }
+  },
+  testimonials: {
+    title: "Cosa Dicono i Nostri Clienti",
+    subtitle: "Scopri come abbiamo aiutato le aziende a raggiungere i loro obiettivi di marketing digitale",
+    previous: "Testimonianza precedente",
+    next: "Testimonianza successiva",
+    items: {
+      1: {
+        text: "BissClick ha completamente trasformato la nostra presenza online. Il loro approccio strategico al marketing digitale ci ha aiutato a ottenere un aumento del 200% dei lead in soli sei mesi.",
+        author: "John Anderson",
+        role: "CEO",
+        company: "TechVision Inc",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+      },
+      2: {
+        text: "L'esperienza del team nel social media marketing è eccezionale. Ci hanno aiutato a costruire una solida community intorno al nostro brand e hanno migliorato significativamente i nostri tassi di engagement.",
+        author: "Maria Rodriguez",
+        role: "Direttrice Marketing",
+        company: "GrowthSmart",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      3: {
+        text: "Lavorare con BissClick ha cambiato le regole del gioco per il nostro business e-commerce. Il loro approccio basato sui dati e le strategie creative ci hanno aiutato a raddoppiare le vendite online.",
+        author: "David Chen",
+        role: "Fondatore",
+        company: "EcoStyle",
+        image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+      }
     }
   }
 };
@@ -908,6 +1023,35 @@ const ptTranslations = {
     error: {
       title: "Erro",
       description: "Falha ao enviar mensagem. Por favor, tente novamente."
+    }
+  },
+  testimonials: {
+    title: "O Que Nossos Clientes Dizem",
+    subtitle: "Descubra como ajudamos empresas a alcançar seus objetivos de marketing digital",
+    previous: "Depoimento anterior",
+    next: "Próximo depoimento",
+    items: {
+      1: {
+        text: "A BissClick transformou completamente nossa presença online. Sua abordagem estratégica ao marketing digital nos ajudou a alcançar um aumento de 200% em leads em apenas seis meses.",
+        author: "John Anderson",
+        role: "CEO",
+        company: "TechVision Inc",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
+      },
+      2: {
+        text: "A experiência da equipe em marketing de mídia social é excepcional. Eles nos ajudaram a construir uma comunidade forte em torno da nossa marca e melhoraram significativamente nossas taxas de engajamento.",
+        author: "Maria Rodriguez",
+        role: "Diretora de Marketing",
+        company: "GrowthSmart",
+        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      3: {
+        text: "Trabalhar com a BissClick foi um divisor de águas para nosso negócio de e-commerce. Sua abordagem baseada em dados e estratégias criativas nos ajudaram a dobrar nossas vendas online.",
+        author: "David Chen",
+        role: "Fundador",
+        company: "EcoStyle",
+        image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+      }
     }
   }
 };
